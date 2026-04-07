@@ -4,6 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  -webkit-tap-highlight-color: transparent;
+
+
+
 }
     body{
     margin: 0;
@@ -17,7 +22,7 @@
     width: auto;
     padding: 5px;
     position: absolute;
-    top:50px ;
+    top:60px ;
     
 }
 .heading{
@@ -40,9 +45,9 @@ h1{
     
 
 }
-h3{
+p{
      font-size: 50%;
-    white-space:nowrap;
+    white-space:wrap;
     position: relative;
     top: 2px;
      
@@ -90,6 +95,6 @@ h3{
 }
 footer{
     margin: 10px;
-    font-size: 5px;
+    font-size: 50px;
     margin-bottom: 0px;
-}
+} 
